@@ -1,7 +1,8 @@
+import { HUD } from './components/hud';
 export default function App() {
     return (
         <>
-            <h1>Focus</h1>
+            <HUD />
         </>
     );
 }
