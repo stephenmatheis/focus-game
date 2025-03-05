@@ -1,0 +1,13 @@
+.grid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 1px;
+    width: fit-content;
+    background-color: black;
+    border: 1px solid black;
+}
